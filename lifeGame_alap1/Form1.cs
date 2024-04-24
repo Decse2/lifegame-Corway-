@@ -37,7 +37,7 @@ namespace GameOfLife
             // Create grid object.
             CellGrid = new Grid(rows, cols);
 
-            // Clear and rebuild the list of cells, activating 15% of cells at random.
+            // ez 20% nem lenne jóbb?
             Grid.gridCells.Clear();
 
             for (int y = 0; y < rows; y++)
