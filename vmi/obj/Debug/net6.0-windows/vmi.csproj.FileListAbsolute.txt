@@ -1,0 +1,17 @@
+C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\vmi\bin\Debug\net6.0-windows\vmi.exe
+C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\vmi\bin\Debug\net6.0-windows\vmi.deps.json
+C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\vmi\bin\Debug\net6.0-windows\vmi.runtimeconfig.json
+C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\vmi\bin\Debug\net6.0-windows\vmi.dll
+C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\vmi\bin\Debug\net6.0-windows\vmi.pdb
+C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\vmi\obj\Debug\net6.0-windows\vmi.csproj.AssemblyReference.cache
+C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\vmi\obj\Debug\net6.0-windows\vmi.csproj.GenerateResource.cache
+C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\vmi\obj\Debug\net6.0-windows\vmi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\vmi\obj\Debug\net6.0-windows\vmi.AssemblyInfoInputs.cache
+C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\vmi\obj\Debug\net6.0-windows\vmi.AssemblyInfo.cs
+C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\vmi\obj\Debug\net6.0-windows\vmi.csproj.CoreCompileInputs.cache
+C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\vmi\obj\Debug\net6.0-windows\vmi.dll
+C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\vmi\obj\Debug\net6.0-windows\refint\vmi.dll
+C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\vmi\obj\Debug\net6.0-windows\vmi.pdb
+C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\vmi\obj\Debug\net6.0-windows\vmi.genruntimeconfig.cache
+C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\vmi\obj\Debug\net6.0-windows\ref\vmi.dll
+C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\vmi\obj\Debug\net6.0-windows\vmi.Conway_Life_Game.resources
