@@ -1,8 +1,0 @@
-C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\lifegame\obj\Debug\lifegame.csproj.AssemblyReference.cache
-C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\lifegame\obj\Debug\lifegame.csproj.SuggestedBindingRedirects.cache
-C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\lifegame\obj\Debug\lifegame.csproj.CoreCompileInputs.cache
-C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\lifegame\bin\Debug\lifegame.exe.config
-C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\lifegame\bin\Debug\lifegame.exe
-C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\lifegame\bin\Debug\lifegame.pdb
-C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\lifegame\obj\Debug\lifegame.exe
-C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\lifegame\obj\Debug\lifegame.pdb
