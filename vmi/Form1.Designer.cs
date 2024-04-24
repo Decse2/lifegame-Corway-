@@ -32,11 +32,12 @@
             numSSize = new NumericUpDown();
             label1 = new Label();
             Btn_Reset = new Button();
-            button2 = new Button();
+            Color_Change = new Button();
             Btn_Advance = new Button();
             Btn_Go = new Button();
             button4 = new Button();
             cboCells = new ComboBox();
+            colorDialog1 = new ColorDialog();
             ((System.ComponentModel.ISupportInitialize)pbGrid).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numSSize).BeginInit();
             SuspendLayout();
@@ -80,14 +81,15 @@
             Btn_Reset.UseVisualStyleBackColor = true;
             Btn_Reset.Click += Btn_Reset_Click;
             // 
-            // button2
+            // Color_Change
             // 
-            button2.Location = new Point(148, 27);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 4;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            Color_Change.Location = new Point(148, 27);
+            Color_Change.Name = "Color_Change";
+            Color_Change.Size = new Size(100, 23);
+            Color_Change.TabIndex = 4;
+            Color_Change.Text = "ColorChange\r\n";
+            Color_Change.UseVisualStyleBackColor = true;
+            Color_Change.Click += Color_Change_Click;
             // 
             // Btn_Advance
             // 
@@ -136,7 +138,7 @@
             Controls.Add(button4);
             Controls.Add(Btn_Go);
             Controls.Add(Btn_Advance);
-            Controls.Add(button2);
+            Controls.Add(Color_Change);
             Controls.Add(Btn_Reset);
             Controls.Add(label1);
             Controls.Add(numSSize);
@@ -157,10 +159,11 @@
         private NumericUpDown numSSize;
         private Label label1;
         private Button Btn_Reset;
-        private Button button2;
+        private Button Color_Change;
         private Button Btn_Advance;
         private Button Btn_Go;
         private Button button4;
         private ComboBox cboCells;
+        private ColorDialog colorDialog1;
     }
 }

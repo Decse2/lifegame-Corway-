@@ -87,6 +87,17 @@ namespace vmi
             CreateGridSurface();
             GetActiveCounts();
         }
+
+        private void Color_Change_Click(object sender, EventArgs e)
+        {
+            ColorDialog colorDlg = new ColorDialog();
+            if(colorDlg.ShowDialog() == DialogResult.OK)
+            {
+                Properties.Settings.Default.FormBackbround = colorDlg.Color;
+                Properties.Settings.Default.Save();
+                this.BackColor = colorDlg.Color;
+            }
+        }
     }
 
     public class Cell
