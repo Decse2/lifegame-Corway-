@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics.CodeAnalysis;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -125,7 +126,7 @@ namespace GameOfLife
             // Create new image and update picture box.
             using (Bitmap bmp = new Bitmap(pbGrid.Width, pbGrid.Height))
             using (Graphics g = Graphics.FromImage(bmp))
-            using (SolidBrush cellBrush = new SolidBrush(Color.DarkOrange))
+            using (SolidBrush cellBrush = new SolidBrush(Color.RebeccaPurple))
             {
                 g.Clear(Color.Black);
 
