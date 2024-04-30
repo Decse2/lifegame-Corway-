@@ -23,8 +23,8 @@ namespace GameOfLife
             ColorDialog colorDlg = new ColorDialog();
             if (colorDlg.ShowDialog() == DialogResult.OK)
             {
-                Properties.Settings.Default.FormBackground = colorDlg.Color;
-                Properties.Settings.Default.Save();
+                WinFormsApp1.Properties.Settings.Default.FormBackground = colorDlg.Color;
+                WinFormsApp1.Properties.Settings.Default.Save();
                 this.BackColor = colorDlg.Color;
 
             }
