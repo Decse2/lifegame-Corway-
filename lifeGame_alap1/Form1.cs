@@ -18,8 +18,18 @@ namespace GameOfLife
         {
             InitializeComponent();
         }
+        private void clr_change_Click(object sender, EventArgs e)
+        {
+            ColorDialog colorDlg = new ColorDialog();
+            if (colorDlg.ShowDialog() == DialogResult.OK)
+            {
+                Properties.Settings.Default.FormBackground = colorDlg.Color;
+                Properties.Settings.Default.Save();
+                this.BackColor = colorDlg.Color;
 
-        private void ConwayMain_Load(object sender, EventArgs e)
+            }
+        }
+            private void ConwayMain_Load(object sender, EventArgs e)
         {
             CreateGridSurface(true);
             //GetActiveCounts();
@@ -276,6 +286,8 @@ namespace GameOfLife
             }
 
         }
+
+        
     }
 
     public class Grid
@@ -417,7 +429,7 @@ namespace GameOfLife
             {
                 throw;
             }
- 
+
 
         }
 
