@@ -33,3 +33,4 @@ C:\Users\tothpalistvan\Documents\GitHub\lifegame-Corway-\vmi\obj\Debug\net6.0-wi
 C:\Users\tothpalistvan\Documents\GitHub\lifegame-Corway-\vmi\obj\Debug\net6.0-windows\vmi.genruntimeconfig.cache
 C:\Users\tothpalistvan\Documents\GitHub\lifegame-Corway-\vmi\obj\Debug\net6.0-windows\ref\vmi.dll
 C:\Users\PallerPeter\Documents\GitHub\lifegame-Corway-\vmi\bin\Debug\net6.0-windows\vmi.dll.config
+C:\Users\tothpalistvan\Documents\GitHub\lifegame-Corway-\vmi\bin\Debug\net6.0-windows\vmi.dll.config
