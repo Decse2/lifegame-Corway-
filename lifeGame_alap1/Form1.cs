@@ -30,6 +30,14 @@ namespace GameOfLife
 
             }
         }
+        private void clr_change_Color(object sender, EventArgs e) 
+        {
+            ColorDialog colorDlg1 = new ColorDialog();
+            if (colorDlg1.ShowDialog() == DialogResult.OK) { 
+
+
+            }
+        }
             private void ConwayMain_Load(object sender, EventArgs e)
         {
             CreateGridSurface(true);
@@ -566,6 +574,7 @@ namespace GameOfLife
             //Override the cell ToString to provide location information.
             return $"GridX:{XPos}  GridY:{YPos}  Alive:{IsAlive}  Next:{NextStatus}";
         }
+
 
     }
 }
