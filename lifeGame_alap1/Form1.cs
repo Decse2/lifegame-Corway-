@@ -30,15 +30,16 @@ namespace GameOfLife
 
             }
         }
-        private void clr_change_Color(object sender, EventArgs e) 
+        /*private void clr_change_Color(object sender, EventArgs e)
         {
             ColorDialog colorDlg1 = new ColorDialog();
-            if (colorDlg1.ShowDialog() == DialogResult.OK) { 
+            if (colorDlg1.ShowDialog() == DialogResult.OK)
+            {
 
 
             }
-        }
-            private void ConwayMain_Load(object sender, EventArgs e)
+        }*/
+        private void ConwayMain_Load(object sender, EventArgs e)
         {
             CreateGridSurface(true);
             //GetActiveCounts();
@@ -296,7 +297,10 @@ namespace GameOfLife
 
         }
 
-        
+        private void pbGrid_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
     public class Grid
