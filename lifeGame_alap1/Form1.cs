@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics.CodeAnalysis;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -29,7 +30,16 @@ namespace GameOfLife
 
             }
         }
-            private void ConwayMain_Load(object sender, EventArgs e)
+        /*private void clr_change_Color(object sender, EventArgs e)
+        {
+            ColorDialog colorDlg1 = new ColorDialog();
+            if (colorDlg1.ShowDialog() == DialogResult.OK)
+            {
+
+
+            }
+        }*/
+        private void ConwayMain_Load(object sender, EventArgs e)
         {
             CreateGridSurface(true);
             //GetActiveCounts();
@@ -125,7 +135,7 @@ namespace GameOfLife
             // Create new image and update picture box.
             using (Bitmap bmp = new Bitmap(pbGrid.Width, pbGrid.Height))
             using (Graphics g = Graphics.FromImage(bmp))
-            using (SolidBrush cellBrush = new SolidBrush(Color.DarkOrange))
+            using (SolidBrush cellBrush = new SolidBrush(Color.RebeccaPurple))
             {
                 g.Clear(Color.Black);
 
@@ -287,7 +297,10 @@ namespace GameOfLife
 
         }
 
-        
+        private void pbGrid_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
     public class Grid
@@ -565,6 +578,7 @@ namespace GameOfLife
             //Override the cell ToString to provide location information.
             return $"GridX:{XPos}  GridY:{YPos}  Alive:{IsAlive}  Next:{NextStatus}";
         }
+
 
     }
 }
